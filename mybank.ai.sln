@@ -1,0 +1,256 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MyBankAI", "MyBankAI", "{DEB09C9A-C9C1-E54D-26D4-12A8A1BC68D5}"
+EndProject
+
+# ── AccountService ─────────────────────────────────────────────────────────────
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AccountService", "AccountService", "{63219038-B9A3-2A92-C7AA-79DC7598757B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "AccountService\src", "{47BF5BD9-B8B2-9CC8-AAEA-BF90E27CC185}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountService.API", "AccountService\src\AccountService.API\AccountService.API.csproj", "{987812E0-78DC-20CD-B16F-8E5907BD138D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountService.Application", "AccountService\src\AccountService.Application\AccountService.Application.csproj", "{0A1BBE18-CDC6-AC36-0FB3-754438EC75F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountService.Domain", "AccountService\src\AccountService.Domain\AccountService.Domain.csproj", "{5C0BE1ED-395F-EDAB-8FE1-2D956CBA35A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountService.Infrastructure", "AccountService\src\AccountService.Infrastructure\AccountService.Infrastructure.csproj", "{BF86EF99-2776-11A3-A08F-68F1E08D7530}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "AccountService\tests", "{A1B2C3D4-0001-0001-0001-000000000001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountService.UnitTests", "AccountService\tests\AccountService.UnitTests\AccountService.UnitTests.csproj", "{A1B2C3D4-0001-0002-0001-000000000001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountService.IntegrationTests", "AccountService\tests\AccountService.IntegrationTests\AccountService.IntegrationTests.csproj", "{A1B2C3D4-0001-0003-0001-000000000001}"
+EndProject
+
+# ── ApiGateway ─────────────────────────────────────────────────────────────────
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", "{8ABFDF1A-C47C-932F-3698-4D5457CA7B68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "ApiGateway\src", "{EBFF6053-B8C2-8DBE-3C7C-46FC41BFB47C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway.API", "ApiGateway\src\ApiGateway.API\ApiGateway.API.csproj", "{82650626-3307-E6EB-3901-E30E81ADE04B}"
+EndProject
+
+# ── TransactionService ─────────────────────────────────────────────────────────
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TransactionService", "TransactionService", "{791F2A44-29CE-B2D1-1E46-019C725C1F61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "TransactionService\src", "{179CDF75-127C-2574-9ECA-290009CE5318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionService.API", "TransactionService\src\TransactionService.API\TransactionService.API.csproj", "{A1B2C3D4-0002-0001-0001-000000000001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionService.Application", "TransactionService\src\TransactionService.Application\TransactionService.Application.csproj", "{93430419-2E95-DFE9-1CC1-21596357A5F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionService.Domain", "TransactionService\src\TransactionService.Domain\TransactionService.Domain.csproj", "{69275C36-C5CD-7EF3-2AFD-29CE4DC95771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionService.Infrastructure", "TransactionService\src\TransactionService.Infrastructure\TransactionService.Infrastructure.csproj", "{131C899A-6D3B-ACFA-4CB5-30E83789B8F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "TransactionService\tests", "{A1B2C3D4-0002-0005-0001-000000000001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionService.UnitTests", "TransactionService\tests\TransactionService.UnitTests\TransactionService.UnitTests.csproj", "{A1B2C3D4-0002-0006-0001-000000000001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionService.IntegrationTests", "TransactionService\tests\TransactionService.IntegrationTests\TransactionService.IntegrationTests.csproj", "{A1B2C3D4-0002-0007-0001-000000000001}"
+EndProject
+
+# ── FraudDetectionService ──────────────────────────────────────────────────────
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FraudDetectionService", "FraudDetectionService", "{A1B2C3D4-0003-0000-0001-000000000001}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "FraudDetectionService\src", "{A1B2C3D4-0003-0001-0001-000000000001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FraudDetectionService.API", "FraudDetectionService\src\FraudDetectionService.API\FraudDetectionService.API.csproj", "{A1B2C3D4-0003-0002-0001-000000000001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FraudDetectionService.Application", "FraudDetectionService\src\FraudDetectionService.Application\FraudDetectionService.Application.csproj", "{A1B2C3D4-0003-0003-0001-000000000001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FraudDetectionService.Domain", "FraudDetectionService\src\FraudDetectionService.Domain\FraudDetectionService.Domain.csproj", "{A1B2C3D4-0003-0004-0001-000000000001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FraudDetectionService.Infrastructure", "FraudDetectionService\src\FraudDetectionService.Infrastructure\FraudDetectionService.Infrastructure.csproj", "{A1B2C3D4-0003-0005-0001-000000000001}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "FraudDetectionService\tests", "{A1B2C3D4-0003-0006-0001-000000000001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FraudDetectionService.UnitTests", "FraudDetectionService\tests\FraudDetectionService.UnitTests\FraudDetectionService.UnitTests.csproj", "{A1B2C3D4-0003-0007-0001-000000000001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FraudDetectionService.IntegrationTests", "FraudDetectionService\tests\FraudDetectionService.IntegrationTests\FraudDetectionService.IntegrationTests.csproj", "{A1B2C3D4-0003-0008-0001-000000000001}"
+EndProject
+
+# ── NotificationService ────────────────────────────────────────────────────────
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NotificationService", "NotificationService", "{A1B2C3D4-0004-0000-0001-000000000001}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "NotificationService\src", "{A1B2C3D4-0004-0001-0001-000000000001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.API", "NotificationService\src\NotificationService.API\NotificationService.API.csproj", "{A1B2C3D4-0004-0002-0001-000000000001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Application", "NotificationService\src\NotificationService.Application\NotificationService.Application.csproj", "{A1B2C3D4-0004-0003-0001-000000000001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Domain", "NotificationService\src\NotificationService.Domain\NotificationService.Domain.csproj", "{A1B2C3D4-0004-0004-0001-000000000001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Infrastructure", "NotificationService\src\NotificationService.Infrastructure\NotificationService.Infrastructure.csproj", "{A1B2C3D4-0004-0005-0001-000000000001}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "NotificationService\tests", "{A1B2C3D4-0004-0006-0001-000000000001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.UnitTests", "NotificationService\tests\NotificationService.UnitTests\NotificationService.UnitTests.csproj", "{A1B2C3D4-0004-0007-0001-000000000001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.IntegrationTests", "NotificationService\tests\NotificationService.IntegrationTests\NotificationService.IntegrationTests.csproj", "{A1B2C3D4-0004-0008-0001-000000000001}"
+EndProject
+
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{987812E0-78DC-20CD-B16F-8E5907BD138D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{987812E0-78DC-20CD-B16F-8E5907BD138D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{987812E0-78DC-20CD-B16F-8E5907BD138D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{987812E0-78DC-20CD-B16F-8E5907BD138D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A1BBE18-CDC6-AC36-0FB3-754438EC75F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A1BBE18-CDC6-AC36-0FB3-754438EC75F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A1BBE18-CDC6-AC36-0FB3-754438EC75F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A1BBE18-CDC6-AC36-0FB3-754438EC75F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C0BE1ED-395F-EDAB-8FE1-2D956CBA35A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C0BE1ED-395F-EDAB-8FE1-2D956CBA35A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C0BE1ED-395F-EDAB-8FE1-2D956CBA35A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C0BE1ED-395F-EDAB-8FE1-2D956CBA35A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF86EF99-2776-11A3-A08F-68F1E08D7530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF86EF99-2776-11A3-A08F-68F1E08D7530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF86EF99-2776-11A3-A08F-68F1E08D7530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF86EF99-2776-11A3-A08F-68F1E08D7530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B2C3D4-0001-0002-0001-000000000001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-0001-0002-0001-000000000001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-0001-0002-0001-000000000001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-0001-0002-0001-000000000001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B2C3D4-0001-0003-0001-000000000001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-0001-0003-0001-000000000001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-0001-0003-0001-000000000001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-0001-0003-0001-000000000001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82650626-3307-E6EB-3901-E30E81ADE04B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82650626-3307-E6EB-3901-E30E81ADE04B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82650626-3307-E6EB-3901-E30E81ADE04B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82650626-3307-E6EB-3901-E30E81ADE04B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B2C3D4-0002-0001-0001-000000000001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-0002-0001-0001-000000000001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-0002-0001-0001-000000000001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-0002-0001-0001-000000000001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93430419-2E95-DFE9-1CC1-21596357A5F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93430419-2E95-DFE9-1CC1-21596357A5F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93430419-2E95-DFE9-1CC1-21596357A5F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93430419-2E95-DFE9-1CC1-21596357A5F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69275C36-C5CD-7EF3-2AFD-29CE4DC95771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69275C36-C5CD-7EF3-2AFD-29CE4DC95771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69275C36-C5CD-7EF3-2AFD-29CE4DC95771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69275C36-C5CD-7EF3-2AFD-29CE4DC95771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{131C899A-6D3B-ACFA-4CB5-30E83789B8F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{131C899A-6D3B-ACFA-4CB5-30E83789B8F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{131C899A-6D3B-ACFA-4CB5-30E83789B8F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{131C899A-6D3B-ACFA-4CB5-30E83789B8F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B2C3D4-0002-0006-0001-000000000001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-0002-0006-0001-000000000001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-0002-0006-0001-000000000001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-0002-0006-0001-000000000001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B2C3D4-0002-0007-0001-000000000001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-0002-0007-0001-000000000001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-0002-0007-0001-000000000001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-0002-0007-0001-000000000001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B2C3D4-0003-0002-0001-000000000001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-0003-0002-0001-000000000001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-0003-0002-0001-000000000001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-0003-0002-0001-000000000001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B2C3D4-0003-0003-0001-000000000001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-0003-0003-0001-000000000001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-0003-0003-0001-000000000001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-0003-0003-0001-000000000001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B2C3D4-0003-0004-0001-000000000001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-0003-0004-0001-000000000001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-0003-0004-0001-000000000001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-0003-0004-0001-000000000001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B2C3D4-0003-0005-0001-000000000001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-0003-0005-0001-000000000001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-0003-0005-0001-000000000001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-0003-0005-0001-000000000001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B2C3D4-0003-0007-0001-000000000001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-0003-0007-0001-000000000001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-0003-0007-0001-000000000001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-0003-0007-0001-000000000001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B2C3D4-0003-0008-0001-000000000001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-0003-0008-0001-000000000001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-0003-0008-0001-000000000001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-0003-0008-0001-000000000001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B2C3D4-0004-0002-0001-000000000001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-0004-0002-0001-000000000001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-0004-0002-0001-000000000001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-0004-0002-0001-000000000001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B2C3D4-0004-0003-0001-000000000001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-0004-0003-0001-000000000001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-0004-0003-0001-000000000001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-0004-0003-0001-000000000001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B2C3D4-0004-0004-0001-000000000001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-0004-0004-0001-000000000001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-0004-0004-0001-000000000001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-0004-0004-0001-000000000001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B2C3D4-0004-0005-0001-000000000001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-0004-0005-0001-000000000001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-0004-0005-0001-000000000001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-0004-0005-0001-000000000001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B2C3D4-0004-0007-0001-000000000001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-0004-0007-0001-000000000001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-0004-0007-0001-000000000001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-0004-0007-0001-000000000001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B2C3D4-0004-0008-0001-000000000001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-0004-0008-0001-000000000001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-0004-0008-0001-000000000001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-0004-0008-0001-000000000001}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		# AccountService
+		{63219038-B9A3-2A92-C7AA-79DC7598757B} = {DEB09C9A-C9C1-E54D-26D4-12A8A1BC68D5}
+		{47BF5BD9-B8B2-9CC8-AAEA-BF90E27CC185} = {63219038-B9A3-2A92-C7AA-79DC7598757B}
+		{987812E0-78DC-20CD-B16F-8E5907BD138D} = {47BF5BD9-B8B2-9CC8-AAEA-BF90E27CC185}
+		{0A1BBE18-CDC6-AC36-0FB3-754438EC75F6} = {47BF5BD9-B8B2-9CC8-AAEA-BF90E27CC185}
+		{5C0BE1ED-395F-EDAB-8FE1-2D956CBA35A5} = {47BF5BD9-B8B2-9CC8-AAEA-BF90E27CC185}
+		{BF86EF99-2776-11A3-A08F-68F1E08D7530} = {47BF5BD9-B8B2-9CC8-AAEA-BF90E27CC185}
+		{A1B2C3D4-0001-0001-0001-000000000001} = {63219038-B9A3-2A92-C7AA-79DC7598757B}
+		{A1B2C3D4-0001-0002-0001-000000000001} = {A1B2C3D4-0001-0001-0001-000000000001}
+		{A1B2C3D4-0001-0003-0001-000000000001} = {A1B2C3D4-0001-0001-0001-000000000001}
+		# ApiGateway
+		{8ABFDF1A-C47C-932F-3698-4D5457CA7B68} = {DEB09C9A-C9C1-E54D-26D4-12A8A1BC68D5}
+		{EBFF6053-B8C2-8DBE-3C7C-46FC41BFB47C} = {8ABFDF1A-C47C-932F-3698-4D5457CA7B68}
+		{82650626-3307-E6EB-3901-E30E81ADE04B} = {EBFF6053-B8C2-8DBE-3C7C-46FC41BFB47C}
+		# TransactionService
+		{791F2A44-29CE-B2D1-1E46-019C725C1F61} = {DEB09C9A-C9C1-E54D-26D4-12A8A1BC68D5}
+		{179CDF75-127C-2574-9ECA-290009CE5318} = {791F2A44-29CE-B2D1-1E46-019C725C1F61}
+		{A1B2C3D4-0002-0001-0001-000000000001} = {179CDF75-127C-2574-9ECA-290009CE5318}
+		{93430419-2E95-DFE9-1CC1-21596357A5F5} = {179CDF75-127C-2574-9ECA-290009CE5318}
+		{69275C36-C5CD-7EF3-2AFD-29CE4DC95771} = {179CDF75-127C-2574-9ECA-290009CE5318}
+		{131C899A-6D3B-ACFA-4CB5-30E83789B8F2} = {179CDF75-127C-2574-9ECA-290009CE5318}
+		{A1B2C3D4-0002-0005-0001-000000000001} = {791F2A44-29CE-B2D1-1E46-019C725C1F61}
+		{A1B2C3D4-0002-0006-0001-000000000001} = {A1B2C3D4-0002-0005-0001-000000000001}
+		{A1B2C3D4-0002-0007-0001-000000000001} = {A1B2C3D4-0002-0005-0001-000000000001}
+		# FraudDetectionService
+		{A1B2C3D4-0003-0000-0001-000000000001} = {DEB09C9A-C9C1-E54D-26D4-12A8A1BC68D5}
+		{A1B2C3D4-0003-0001-0001-000000000001} = {A1B2C3D4-0003-0000-0001-000000000001}
+		{A1B2C3D4-0003-0002-0001-000000000001} = {A1B2C3D4-0003-0001-0001-000000000001}
+		{A1B2C3D4-0003-0003-0001-000000000001} = {A1B2C3D4-0003-0001-0001-000000000001}
+		{A1B2C3D4-0003-0004-0001-000000000001} = {A1B2C3D4-0003-0001-0001-000000000001}
+		{A1B2C3D4-0003-0005-0001-000000000001} = {A1B2C3D4-0003-0001-0001-000000000001}
+		{A1B2C3D4-0003-0006-0001-000000000001} = {A1B2C3D4-0003-0000-0001-000000000001}
+		{A1B2C3D4-0003-0007-0001-000000000001} = {A1B2C3D4-0003-0006-0001-000000000001}
+		{A1B2C3D4-0003-0008-0001-000000000001} = {A1B2C3D4-0003-0006-0001-000000000001}
+		# NotificationService
+		{A1B2C3D4-0004-0000-0001-000000000001} = {DEB09C9A-C9C1-E54D-26D4-12A8A1BC68D5}
+		{A1B2C3D4-0004-0001-0001-000000000001} = {A1B2C3D4-0004-0000-0001-000000000001}
+		{A1B2C3D4-0004-0002-0001-000000000001} = {A1B2C3D4-0004-0001-0001-000000000001}
+		{A1B2C3D4-0004-0003-0001-000000000001} = {A1B2C3D4-0004-0001-0001-000000000001}
+		{A1B2C3D4-0004-0004-0001-000000000001} = {A1B2C3D4-0004-0001-0001-000000000001}
+		{A1B2C3D4-0004-0005-0001-000000000001} = {A1B2C3D4-0004-0001-0001-000000000001}
+		{A1B2C3D4-0004-0006-0001-000000000001} = {A1B2C3D4-0004-0000-0001-000000000001}
+		{A1B2C3D4-0004-0007-0001-000000000001} = {A1B2C3D4-0004-0006-0001-000000000001}
+		{A1B2C3D4-0004-0008-0001-000000000001} = {A1B2C3D4-0004-0006-0001-000000000001}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = preSolution
+		SolutionGuid = {667405B1-6E04-4D1C-B1AB-BECE5128D368}
+	EndGlobalSection
+EndGlobal

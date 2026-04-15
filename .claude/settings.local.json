@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell -Command \"Rename-Item 'C:\\\\Users\\\\lanto\\\\OneDrive\\\\Documentos\\\\Fork\\\\mybank.ai\\\\FinTechAI' 'MyBankAI'\")",
+      "Bash(git mv:*)",
+      "Bash(mv MyBankAI/.editorconfig .)",
+      "Bash(mv MyBankAI/.env.example .)",
+      "Bash(mv MyBankAI/.gitignore .)",
+      "Bash(mv MyBankAI/docker-compose.yml .)",
+      "Bash(mv MyBankAI/scripts .)",
+      "Bash(grep:*)"
+    ]
+  }
+}
